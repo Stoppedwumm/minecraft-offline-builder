@@ -37,9 +37,9 @@ Before running the script, you **must** configure the source paths to match your
 ## Usage
 
 1.  **Configure:** Ensure `config.py` and `dependencies.py` are set up correctly for your environment.
-2.  **Run:** Open a terminal or command prompt in the project's root directory (where `main.py` is located) and run:
+2.  **Run:** Open a terminal or command prompt in the project's root directory (where `__main__.py` is located) and run:
     ```bash
-    python3 main.py
+    python3 __main__.py
     # or on Windows:
     # python main.py
     ```
